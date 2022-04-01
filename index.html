@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natur neu erleben </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap" rel="stylesheet">
+    
+<style>
+
+    body{
+        font-family: 'Open Sans', sans-serif;
+        background-color: rgba(223, 222, 222, 0.733);
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .header-image {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        object-position: center;
+        justify-content: left;
+       
+    
+
+    }
+    .headline{
+        color: rgb(252, 247, 247);
+
+    }
+    .image-container{
+background-color: rgb(255, 255, 255);
+padding: 10px;
+
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    a {
+        
+        color: rgba(34, 33, 33, 0.808);
+        text-decoration: none;
+        margin-left: 20px;
+        font-variant-ligatures: contextual;
+        font-weight: bold;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    .text-test{
+        color: rgb(0, 0, 0);
+        font-size: 35px;
+    }
+    .text-test2{
+
+color: rgb(78, 77, 77);
+    }
+
+    .text-test3{
+        font-size: 55px;
+        color: #04AA6D;
+    }
+    .text-test4{
+        font-size: medium;
+        color: rgb(248, 249, 250);
+    }
+
+    .text-container{
+        background-color: #044e33;
+        padding: 5%;
+        font-weight: 600;
+    }
+    .maps-container{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        
+    }
+    .text-container{
+        width: auto;
+    }
+
+    .maps-right{
+        width: 30%;
+        margin-left: 10px;
+    }
+
+    .maps-frame {
+        border: 0;
+        height: 450px;
+        width: 70%;
+    }
+
+    .legal-content{
+        padding: 8px;
+    }
+
+    .text-test5{
+        color: #04AA6D;
+    }
+
+    /* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.Textinfo{
+  font-size: larger;
+  color: #ff083e8f;
+}
+
+
+</style>
+
+</head>
+
+<body>
+    
+    <div class="navbar"> 
+    <h1 class="headline"> 
+        <span class="text-test3">NaTour</span><br> <span class="text-test">Erlebnisse</span>
+    </h1>
+
+    <div>
+
+
+    <a href="file:///Users/williamfurst/Downloads/BEWERBUNGSFOTOS-BERLIN-MITTE-main/%C3%9Cber%20uns.html"></a>
+    <a href="file:///Users/williamfurst/Downloads/BEWERBUNGSFOTOS-BERLIN-MITTE-main/Angebote.html"></a>
+    <a href="file:///Users/williamfurst/Downloads/BEWERBUNGSFOTOS-BERLIN-MITTE-main/index.html"></a>
+    <a href="file:///Users/williamfurst/Downloads/BEWERBUNGSFOTOS-BERLIN-MITTE-main/Termine.html"></a>
+     
+<div class="topnav" id="myTopnav">
+  <a href="file:///Users/williamfurst/Downloads/BEWERBUNGSFOTOS-BERLIN-MITTE-main/index.html" class="active">Startseite</a>
+  <a href="file:///Users/williamfurst/Downloads/BEWERBUNGSFOTOS-BERLIN-MITTE-main/%C3%9Cber%20uns.html#home">Anmeldung</a>
+  <a href="file:///Users/williamfurst/Downloads/BEWERBUNGSFOTOS-BERLIN-MITTE-main/Kontakt.html">Kontakt</a>
+  <div class="dropdown">
+    <button class="dropbtn">|||
+      <i class="fa fa-caret-down"></i>
+    </button>
+
+
+    <div class="dropdown-content">
+      <a href="file:///Users/williamfurst/Downloads/BEWERBUNGSFOTOS-BERLIN-MITTE-main/Angebote.html">Angebote</a>
+      <a href="file:///Users/williamfurst/Downloads/BEWERBUNGSFOTOS-BERLIN-MITTE-main/%C3%9Cber%20uns.....html">Über uns </a>
+      <a href="file:///Users/williamfurst/Downloads/BEWERBUNGSFOTOS-BERLIN-MITTE-main/Termine.html#home">Termine</a>
+    </div>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+</div>
+
+</div>
+
+    <div class="image-container">
+        
+        <img class="header-image" src="header.jpg">
+  <div class="text-container">
+    <span class="text-test4">Erlebnisse rund um ihr zu Hause........</span>
+  </div>
+  <div class="maps-container">
+
+  <iframe class="maps-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40453.18059950029!2d8.786747216500052!3d50.67681460375144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bcf4b57ebef6ef%3A0x70cae314511246c5!2sAllendorf%20(Lumda)!5e0!3m2!1sde!2sde!4v1647079633447!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+      
+    <div class="text-container maps-right">
+        <span class="text-test4">................ </span> 
+     </div>
+    
+    </div>
+
+    <div>
+    
+        <div class="legal-content"> 
+            <span class="text-test5">(c) 2022 - Natur Tours GmbH  </span> |<a href="https://google.de" >Impressum</a> |<a href="https://google.de" >Datenschutz </a>  | <span class="Textinfo"> Hinweis: Dies ist ein fiktives Gründerplanspiel</span> 
+
+
+</body>
+</html>
